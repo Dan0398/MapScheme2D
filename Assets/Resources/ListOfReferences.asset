@@ -1,0 +1,588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d3a13f5a62d584e82add5ed1214039, type: 3}
+  m_Name: ListOfReferences
+  m_EditorClassIdentifier: 
+  MarksCategories:
+  - CategoryName: "\u041F\u043E\u0436\u0430\u0440\u043D\u0430\u044F \u0438 \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u044C\u043D\u0430\u044F
+      \u0442\u0435\u0445\u043D\u0438\u043A\u0430"
+    CategoryIcon: {fileID: 21300000, guid: 7cc42f6630471534a9a4b6c074015233, type: 3}
+    MarkTypes:
+    - TypeName: "\u0410\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: 7cc42f6630471534a9a4b6c074015233, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0430\u0440\u0438\u0439\u043D\u043E-\u0441\u043F\u0430\u0441\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+        \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C"
+      SpriteReference: {fileID: 21300000, guid: 76a65d51d71059e43a62ce2846e64f37, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u0430\u044F \u0430\u0432\u0442\u043E\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: 18e0256bc27ebaa4e91becad3bfb36aa, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u044D\u0440\u043E\u0434\u0440\u043E\u043C\u043D\u044B\u0439
+        \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C"
+      SpriteReference: {fileID: 21300000, guid: 8fb2201dca058724d8647baddeb46d17, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0432\u043E\u0434\u043E\u0437\u0430\u0449\u0438\u0442\u043D\u044B\u0439
+        \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C"
+      SpriteReference: {fileID: 21300000, guid: 2060cb06b4f3b24419ae39e7c93d9556, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u0433\u0430\u0437\u043E\u0432\u043E\u0433\u043E \u0442\u0443\u0448\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: bec2a343a45242c4681e1f2b721f7d8b, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u0433\u0430\u0437\u043E\u0434\u044B\u043C\u043E\u0437\u0430\u0449\u0438\u0442\u043D\u043E\u0439
+        \u0441\u043B\u0443\u0436\u0431\u044B"
+      SpriteReference: {fileID: 21300000, guid: 02fb0b5a878d3314bb79cca7a731d9a2, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u043F\u0435\u0440\u0432\u043E\u0439 \u043F\u043E\u043C\u043E\u0449\u0438"
+      SpriteReference: {fileID: 21300000, guid: ee583c93bde97214bb116f76217b4a70, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0440\u0443\u043A\u0430\u0432\u043D\u044B\u0439
+        \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C"
+      SpriteReference: {fileID: 21300000, guid: a45051980d46de142babfd06126df7f9, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u0441\u0432\u044F\u0437\u0438 \u0438 \u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: acfc7ca79fd27ab4c81d33ad9adfd277, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u043E-\u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+        \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C"
+      SpriteReference: {fileID: 21300000, guid: e80b42874adb07849a77e37a6fab44e4, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0448\u0442\u0430\u0431\u043D\u043E\u0439
+        \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C"
+      SpriteReference: {fileID: 21300000, guid: 02ad61a5d956f0841859b42cd932c3c1, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u043F\u0435\u043D\u043D\u043E\u0433\u043E \u0442\u0443\u0448\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: d46bd6fbab3fe8e4c86ecbfc4ac64827, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u043A\u043E\u043C\u0431\u0438\u043D\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0433\u043E
+        \u0442\u0443\u0448\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: d9a78ffc0c1180443be46ddc71dbba57, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u043F\u043E\u0440\u043E\u0448\u043A\u043E\u0432\u043E\u0433\u043E \u0442\u0443\u0448\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: 13f93cb1ccfcdfa4aba8b80b6e17b6d0, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u0430\u044F \u0430\u0432\u0442\u043E\u043D\u0430\u0441\u043E\u0441\u043D\u0430\u044F
+        \u0441\u0442\u0430\u043D\u0446\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: 4f9fa5edc1e149d44a72f69c085bbda2, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u0430\u044F \u0430\u0432\u0442\u043E\u0446\u0438\u0441\u0442\u0435\u0440\u043D\u0430"
+      SpriteReference: {fileID: 21300000, guid: 2172347c9b1c0a244a68887da8c50e69, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u043D\u0430\u0441\u043E\u0441\u043D\u043E-\u0440\u0443\u043A\u0430\u0432\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: 5c14847eb12b79749ae7e76ce1ce34c2, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u0430\u044F \u0430\u0432\u0442\u043E\u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430"
+      SpriteReference: {fileID: 21300000, guid: 3cdc4dc3c5cb2c4469e116e12d8ab891, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043F\u043E\u0434\u044A\u0451\u043C\u043D\u0438\u043A
+        \u043A\u043E\u043B\u0435\u043D\u0447\u0430\u0442\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: 54c4258b39b564345a233220382cf27e, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043F\u043E\u0434\u044A\u0451\u043C\u043D\u0438\u043A
+        \u0442\u0435\u043B\u0435\u0441\u043A\u043E\u043F\u0438\u0447\u0435\u0441\u043A\u0438\u0439"
+      SpriteReference: {fileID: 21300000, guid: b43380147ef0c9b4a862aa08b15c6dd5, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u0434\u044B\u043C\u043E\u0443\u0434\u0430\u043B\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: a72136253cf380a46a6b8f779fff489d, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u0441\u043E \u0441\u0442\u0430\u0446\u0438\u043E\u043D\u0430\u0440\u043D\u044B\u043C
+        \u043B\u0430\u0444\u0435\u0442\u043D\u044B\u043C \u0441\u0442\u0432\u043E\u043B\u043E\u043C"
+      SpriteReference: {fileID: 21300000, guid: d9f73907634559e49b12882d265c3973, type: 3}
+      DefaultSize: {x: 185, y: 120}
+    - TypeName: "\u0410\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C-\u043F\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u043D\u043E\u0439
+        \u043B\u0430\u0444\u0435\u0442\u043D\u044B\u0439 \u0441\u0442\u0432\u043E\u043B"
+      SpriteReference: {fileID: 21300000, guid: 3ca6b3ced8094104fab09aac0b488654, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u0443\u0433\u043B\u0435\u043A\u0438\u0441\u043B\u043E\u0442\u043D\u043E\u0433\u043E
+        \u0442\u0443\u0448\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: 283a0710e8288e943bbd8593e5a2d3b6, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u0411\u0443\u043B\u044C\u0434\u043E\u0437\u0435\u0440"
+      SpriteReference: {fileID: 21300000, guid: 736d9667b99109b4b8f4a1f197d42025, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u0418\u043D\u0436\u0435\u043D\u0435\u0440\u043D\u0430\u044F \u043C\u0430\u0448\u0438\u043D\u0430
+        \u0440\u0430\u0437\u0433\u0440\u0430\u0436\u0434\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: 25eda88c4f7fcd3488d1cb90ab9ef1a6, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u042D\u0432\u0430\u043A\u0443\u0430\u0442\u043E\u0440"
+      SpriteReference: {fileID: 21300000, guid: 9663a3c0cfff1a44fae1e23e04b82fe5, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041A\u0440\u0430\u043D"
+      SpriteReference: {fileID: 21300000, guid: 219558965d6e7af44905fffab52bb5cc, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u0413\u0440\u0435\u0439\u0434\u0435\u0440"
+      SpriteReference: {fileID: 21300000, guid: 2683cb81157f9c34d99eaaf04bb5e144, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0442\u0430\u043D\u043A"
+      SpriteReference: {fileID: 21300000, guid: d13f7efae666d5845a50a85d1137bdd6, type: 3}
+      DefaultSize: {x: 192, y: 84}
+    - TypeName: "\u041F\u0440\u0438\u0446\u0435\u043F \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: 5d0582e6e90d3a04abd9dad22f5740fa, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u0421\u0443\u0434\u043D\u043E \u043F\u043E\u0436\u0430\u0440\u043D\u043E\u0435"
+      SpriteReference: {fileID: 21300000, guid: f39da8c3561ab534485a6e4dd7d4a98d, type: 3}
+      DefaultSize: {x: 186, y: 66}
+    - TypeName: "\u041A\u0430\u0442\u0435\u0440 \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: 9249d9f0fd7317a4fa2df234da6cfe9c, type: 3}
+      DefaultSize: {x: 186, y: 66}
+    - TypeName: "\u041F\u043E\u0435\u0437\u0434 \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: bbe25987d6e419b4caff1f22d9579f0b, type: 3}
+      DefaultSize: {x: 158, y: 97}
+    - TypeName: "\u0421\u0430\u043C\u043E\u043B\u0451\u0442 \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: 8916f92011f8a1c4a977583a5068aca0, type: 3}
+      DefaultSize: {x: 110, y: 73}
+    - TypeName: "\u0413\u0438\u0434\u0440\u043E\u0441\u0430\u043C\u043E\u043B\u0451\u0442
+        \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: 6e74258cbc9bf6747abc104fcc7bfbd2, type: 3}
+      DefaultSize: {x: 138, y: 92}
+    - TypeName: "\u0412\u0435\u0440\u0442\u043E\u043B\u0451\u0442 \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: 1b9ea19c3d9f82b4fbc18022f54fa227, type: 3}
+      DefaultSize: {x: 151, y: 75}
+    - TypeName: "\u041C\u043E\u0442\u043E\u043F\u043E\u043C\u043F\u0430 \u043F\u043E\u0436\u0430\u0440\u043D\u0430\u044F
+        \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u043D\u0430\u044F"
+      SpriteReference: {fileID: 21300000, guid: 67ddf22519504c040ba8d0adc8011bb5, type: 3}
+      DefaultSize: {x: 62, y: 69}
+    - TypeName: "\u041C\u043E\u0442\u043E\u043F\u043E\u043C\u043F\u0430 \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u043D\u0430\u044F
+        \u043F\u0440\u0438\u0446\u0435\u043F\u043D\u0430\u044F"
+      SpriteReference: {fileID: 21300000, guid: b4290aeebff0aa84f8bd7c21c46ba5ea, type: 3}
+      DefaultSize: {x: 92, y: 100}
+    - TypeName: "\u041F\u0440\u0438\u0441\u043F\u043E\u0441\u043E\u0431\u043B\u0435\u043D\u043D\u044B\u0439
+        \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C \u0434\u043B\u044F
+        \u0446\u0435\u043B\u0435\u0439 \u043F\u043E\u0436\u0430\u0440\u043E\u0442\u0443\u0448\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: c9024cc17007b4848be30694d5861558, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u0414\u0440\u0443\u0433\u0430\u044F \u043F\u0440\u0438\u0441\u043F\u043E\u0441\u043E\u0431\u043B\u0435\u043D\u043D\u0430\u044F
+        \u0442\u0435\u0445\u043D\u0438\u043A\u0430 \u0434\u043B\u044F \u0446\u0435\u043B\u0435\u0439
+        \u043F\u043E\u0436\u0430\u0440\u043E\u0442\u0443\u0448\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: ed90fee64c6efdc40a998ea3b7eeff5c, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u0421\u043A\u043E\u0440\u0430\u044F \u043F\u043E\u043C\u043E\u0449\u044C"
+      SpriteReference: {fileID: 21300000, guid: 8311b2d7fe83028449632bcb54a024a4, type: 3}
+      DefaultSize: {x: 170, y: 65}
+    - TypeName: "\u0410\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C \u041C\u0412\u0414"
+      SpriteReference: {fileID: 21300000, guid: 5003f9f7dcf885e48a7078556d92be75, type: 3}
+      DefaultSize: {x: 170, y: 65}
+  - CategoryName: "\u041F\u043E\u0436\u0430\u0440\u043D\u043E\u0435 \u043E\u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u0438\u0435,
+      \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u044C\u043D\u044B\u0439 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442"
+    CategoryIcon: {fileID: 21300000, guid: 49352d0dadda44e4bbe27cd506228c59, type: 3}
+    MarkTypes:
+    - TypeName: "\u0420\u0443\u043A\u0430\u0432 \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439,
+        \u0443\u043B\u043E\u0436\u0435\u043D\u043D\u044B\u0439 \u0432 \u0441\u043A\u0430\u0442\u043A\u0443"
+      SpriteReference: {fileID: 21300000, guid: 1da55481249d6914fa3c5527d4e05b3d, type: 3}
+      DefaultSize: {x: 124, y: 92}
+    - TypeName: "\u0420\u0443\u043A\u0430\u0432 \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439,
+        \u0443\u043B\u043E\u0436\u0435\u043D\u043D\u044B\u0439 \"\u0433\u0430\u043C\u043E\u0448\u043A\u0443\""
+      SpriteReference: {fileID: 21300000, guid: 61888e2554e68cb468d9491a4b7a0e63, type: 3}
+      DefaultSize: {x: 158, y: 73}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u0440\u0443\u0447\u043D\u043E\u0439"
+      SpriteReference: {fileID: 21300000, guid: 655f7781fb05a504b9327fc6a1b0ab70, type: 3}
+      DefaultSize: {x: 123, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u0440\u0443\u0447\u043D\u043E\u0439 \u0434\u043B\u044F \u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+        \u0440\u0430\u0441\u043F\u044B\u043B\u0451\u043D\u043D\u043E\u0439 \u0432\u043E\u0434\u044F\u043D\u043E\u0439
+        \u0441\u0442\u0440\u0443\u0438 1"
+      SpriteReference: {fileID: 21300000, guid: ac1ed55f5b6fc504ba4ddd613c207c5f, type: 3}
+      DefaultSize: {x: 200, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u0440\u0443\u0447\u043D\u043E\u0439 \u0434\u043B\u044F \u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+        \u0440\u0430\u0441\u043F\u044B\u043B\u0451\u043D\u043D\u043E\u0439 \u0432\u043E\u0434\u044F\u043D\u043E\u0439
+        \u0441\u0442\u0440\u0443\u0438 2"
+      SpriteReference: {fileID: 21300000, guid: b81bf256619ce2a428b518e138c3c776, type: 3}
+      DefaultSize: {x: 200, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u0434\u043B\u044F \u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+        \u043F\u0435\u043D\u044B \u0441\u0440\u0435\u0434\u043D\u0435\u0439 \u043A\u0440\u0430\u0442\u043D\u043E\u0441\u0442\u0438
+        1"
+      SpriteReference: {fileID: 21300000, guid: 4c483715811e1854a95dc0e851ac1de0, type: 3}
+      DefaultSize: {x: 200, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u0440\u0443\u0447\u043D\u043E\u0439 \u0434\u043B\u044F \u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+        \u043F\u0435\u043D\u044B \u0441\u0440\u0435\u0434\u043D\u0435\u0439 \u043A\u0440\u0430\u0442\u043D\u043E\u0441\u0442\u0438
+        2"
+      SpriteReference: {fileID: 21300000, guid: e696919e872fd264f85d2504c429f565, type: 3}
+      DefaultSize: {x: 200, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u0440\u0443\u0447\u043D\u043E\u0439 \u0434\u043B\u044F \u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+        \u043F\u0435\u043D\u044B \u043D\u0438\u0437\u043A\u043E\u0439 \u043A\u0440\u0430\u0442\u043D\u043E\u0441\u0442\u0438"
+      SpriteReference: {fileID: 21300000, guid: 2c632bfd64d89a244b2571acf80ad054, type: 3}
+      DefaultSize: {x: 162, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u0440\u0443\u0447\u043D\u043E\u0439 \u0434\u043B\u044F \u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+        \u0442\u043E\u043D\u043A\u043E\u0440\u0430\u0441\u043F\u044B\u043B\u0451\u043D\u043D\u043E\u0439
+        \u0432\u043E\u0434\u044F\u043D\u043E\u0439 \u0441\u0442\u0440\u0443\u0438"
+      SpriteReference: {fileID: 21300000, guid: 9fc0cad57569566448b35f618caf3c01, type: 3}
+      DefaultSize: {x: 200, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u0440\u0443\u0447\u043D\u043E\u0439 \u0434\u043B\u044F \u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+        \u0432\u043E\u0434\u044F\u043D\u043E\u0439 \u0441\u0442\u0440\u0443\u0438
+        \u0441 \u0434\u043E\u0431\u0430\u0432\u043A\u0430\u043C\u0438"
+      SpriteReference: {fileID: 21300000, guid: 7851265177a474b4e9c24b3d847dc648, type: 3}
+      DefaultSize: {x: 200, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u0440\u0443\u0447\u043D\u043E\u0439 \u0434\u043B\u044F \u0442\u0443\u0448\u0435\u043D\u0438\u044F
+        \u043F\u0430\u0440\u043E\u043C"
+      SpriteReference: {fileID: 21300000, guid: 5c97ee0b905d5ac44a7420a210ef7212, type: 3}
+      DefaultSize: {x: 172, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u0440\u0443\u0447\u043D\u043E\u0439 \u0434\u043B\u044F \u0442\u0443\u0448\u0435\u043D\u0438\u044F
+        \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043E\u043A,
+        \u043D\u0430\u0445\u043E\u0434\u044F\u0449\u0438\u0445\u0441\u044F \u043F\u043E\u0434
+        \u043D\u0430\u043F\u0440\u044F\u0436\u0435\u043D\u0438\u0435\u043C"
+      SpriteReference: {fileID: 21300000, guid: bd4947a885e132241801a2317955b5d0, type: 3}
+      DefaultSize: {x: 238, y: 90}
+    - TypeName: "\u041C\u0430\u043D\u0451\u0432\u0440\u043D\u043D\u044B\u0439 \u0441\u0442\u0432\u043E\u043B"
+      SpriteReference: {fileID: 21300000, guid: 65e64f722a9df8140a08d38cf82d8de4, type: 3}
+      DefaultSize: {x: 179, y: 75}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B\u044C\u0449\u0438\u043A \u0441 \u0440\u0430\u043D\u0446\u0435\u0432\u044B\u043C
+        \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u043E\u043C \u043F\u043E\u0436\u0430\u0440\u043E\u0442\u0443\u0448\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: dcfaa0f72a0961a4a97cbbdf572cbdb7, type: 3}
+      DefaultSize: {x: 98, y: 52}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B\u044C\u0449\u0438\u043A \u0441 \u0440\u0430\u043D\u0446\u0435\u0432\u044B\u043C
+        \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u043E\u043C \u043F\u043E\u0436\u0430\u0440\u043E\u0442\u0443\u0448\u0435\u043D\u0438\u044F
+        \u0441 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u043C
+        \u0421\u0418\u0417\u041E\u0414"
+      SpriteReference: {fileID: 21300000, guid: fa37cbe73923904499238b8fe7861008, type: 3}
+      DefaultSize: {x: 98, y: 52}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u043B\u0430\u0444\u0435\u0442\u043D\u044B\u0439 \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u043D\u043E\u0439"
+      SpriteReference: {fileID: 21300000, guid: c3cee35e51492704ea3e0a3089f9bf5b, type: 3}
+      DefaultSize: {x: 123, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u043B\u0430\u0444\u0435\u0442\u043D\u044B\u0439 \u0441\u0442\u0430\u0446\u0438\u043E\u043D\u0430\u0440\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: e0c4cbf44269e2e488dd994ad3dc6786, type: 3}
+      DefaultSize: {x: 123, y: 47}
+    - TypeName: "\u0421\u0442\u0432\u043E\u043B \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u043B\u0430\u0444\u0435\u0442\u043D\u044B\u0439 \u0432\u043E\u0437\u0438\u043C\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: d9204c467652e1845a547f962a506100, type: 3}
+      DefaultSize: {x: 123, y: 47}
+    - TypeName: "\u041F\u043E\u0434\u044A\u0451\u043C\u043D\u0438\u043A-\u043F\u0435\u043D\u043E\u0441\u043B\u0438\u0432"
+      SpriteReference: {fileID: 21300000, guid: cba3842c79524fd4b95edb7e35266025, type: 3}
+      DefaultSize: {x: 126, y: 70}
+    - TypeName: "\u0412\u043E\u0434\u043E\u0441\u0431\u043E\u0440\u043D\u0438\u043A
+        \u0440\u0443\u043A\u0430\u0432\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: 696eb80048ba0ed4ba47e7d99316c961, type: 3}
+      DefaultSize: {x: 73, y: 76}
+    - TypeName: "\u0420\u0430\u0437\u0432\u0435\u0442\u0432\u043B\u0435\u043D\u0438\u0435
+        \u0440\u0443\u043A\u0430\u0432\u043D\u043E\u0435 \u0442\u0440\u0451\u0445\u0445\u043E\u0434\u043E\u0432\u043E\u0435"
+      SpriteReference: {fileID: 21300000, guid: 49352d0dadda44e4bbe27cd506228c59, type: 3}
+      DefaultSize: {x: 72, y: 67}
+    - TypeName: "\u041A\u0430\u0442\u0443\u0448\u043A\u0430 \u0440\u0443\u043A\u0430\u0432\u043D\u0430\u044F
+        \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u043D\u0430\u044F"
+      SpriteReference: {fileID: 21300000, guid: cb74a362f5c047f4597557b66f2b4771, type: 3}
+      DefaultSize: {x: 120, y: 61}
+    - TypeName: "\u041A\u0430\u0442\u0443\u0448\u043A\u0430 \u0440\u0443\u043A\u0430\u0432\u043D\u0430\u044F
+        \u043F\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u043D\u0430\u044F"
+      SpriteReference: {fileID: 21300000, guid: f4acea37d439b5c439b0d6eeef487e63, type: 3}
+      DefaultSize: {x: 120, y: 61}
+    - TypeName: "\u041C\u043E\u0441\u0442\u0438\u043A \u0440\u0443\u043A\u0430\u0432\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: eef7d4969ec8f3243a5d7db706796771, type: 3}
+      DefaultSize: {x: 120, y: 61}
+    - TypeName: "\u0413\u0438\u0434\u0440\u043E\u044D\u043B\u0435\u0432\u0430\u0442\u043E\u0440
+        \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: 181158992cc5a914491d5291cc37eb92, type: 3}
+      DefaultSize: {x: 191, y: 74}
+    - TypeName: "\u041F\u0435\u043D\u043E\u0441\u043C\u0435\u0441\u0438\u0442\u0435\u043B\u044C
+        \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439"
+      SpriteReference: {fileID: 21300000, guid: f264f3463c8753144b0e251ff88d14e3, type: 3}
+      DefaultSize: {x: 191, y: 74}
+    - TypeName: "\u0414\u044B\u043C\u043E\u0441\u043E\u0441 \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u043D\u043E\u0439"
+      SpriteReference: {fileID: 21300000, guid: 6387f4a19526aed439e34ab302d800c5, type: 3}
+      DefaultSize: {x: 84, y: 84}
+    - TypeName: "\u0414\u044B\u043C\u043E\u0441\u043E\u0441 \u043F\u043E\u0436\u0430\u0440\u043D\u044B\u0439
+        \u043F\u0440\u0438\u0446\u0435\u043F\u043D\u043E\u0439"
+      SpriteReference: {fileID: 21300000, guid: dd44a067526ea16429921fe673534f67, type: 3}
+      DefaultSize: {x: 84, y: 84}
+    - TypeName: "\u041B\u0435\u0441\u0442\u043D\u0438\u0446\u0430- \u043F\u0430\u043B\u043A\u0430"
+      SpriteReference: {fileID: 21300000, guid: b9d4a2f96a6a43b4ebbedd67b9b03001, type: 3}
+      DefaultSize: {x: 150, y: 87}
+    - TypeName: "\u041B\u0435\u0441\u0442\u043D\u0438\u0446\u0430-\u0448\u0442\u0443\u0440\u043C\u043E\u0432\u043A\u0430"
+      SpriteReference: {fileID: 21300000, guid: d5d81739d1cbfc242a6ddaf0f7544536, type: 3}
+      DefaultSize: {x: 150, y: 87}
+    - TypeName: "\u041B\u0435\u0441\u0442\u043D\u0438\u0446\u0430 \u043F\u043E\u0436\u0430\u0440\u043D\u0430\u044F
+        \u0432\u044B\u0434\u0432\u0438\u0436\u043D\u0430\u044F"
+      SpriteReference: {fileID: 21300000, guid: 905e170b08449314c8b7d4eec9a86535, type: 3}
+      DefaultSize: {x: 150, y: 87}
+  - CategoryName: "\u0421\u0438\u043C\u0432\u043E\u043B\u044B \u043E\u0433\u043D\u0435\u0442\u0443\u0448\u0430\u0449\u0438\u0445
+      \u0441\u0440\u0435\u0434\u0441\u0442\u0432"
+    CategoryIcon: {fileID: 21300000, guid: 942466d2db8a5364bba5d7769feb0254, type: 3}
+    MarkTypes:
+    - TypeName: "\u0412\u043E\u0434\u0430"
+      SpriteReference: {fileID: 21300000, guid: 9dbfbcd561fa84548bf119fa7ab6b33e, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u041F\u0435\u043D\u0430"
+      SpriteReference: {fileID: 21300000, guid: 942466d2db8a5364bba5d7769feb0254, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0412\u043E\u0434\u043D\u044B\u0439 \u0440\u0430\u0441\u0442\u0432\u043E\u0440
+        \u043F\u0435\u043D\u043E\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F"
+      SpriteReference: {fileID: 21300000, guid: 92c446a495938a149a227108d96e4736, type: 3}
+      DefaultSize: {x: 265, y: 128}
+    - TypeName: "\u0412\u043E\u0434\u0430 \u0441 \u0434\u043E\u0431\u0430\u0432\u043A\u0430\u043C\u0438
+        1"
+      SpriteReference: {fileID: 21300000, guid: e05d1f843ed52594bbb5e1e674a6421a, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0412\u043E\u0434\u0430 \u0441 \u0434\u043E\u0431\u0430\u0432\u043A\u0430\u043C\u0438
+        2"
+      SpriteReference: {fileID: 21300000, guid: 0d3cbb996438f4d4ba56cd892b84daa6, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0412\u043E\u0434\u0430 \u0441 \u0434\u043E\u0431\u0430\u0432\u043A\u0430\u043C\u0438
+        3"
+      SpriteReference: {fileID: 21300000, guid: 7f42cc95a75a01249ae8f85def4bb5ea, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0412\u0421- \u043F\u043E\u0440\u043E\u0448\u043E\u043A"
+      SpriteReference: {fileID: 21300000, guid: 2cdbc3330988bdf40be2e21f80044991, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0410\u0412\u0421-\u043F\u043E\u0440\u043E\u0448\u043E\u043A 1"
+      SpriteReference: {fileID: 21300000, guid: 023e4b199a8f7b04b80e27ca2e9ea7ae, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0410\u0412\u0421-\u043F\u043E\u0440\u043E\u0448\u043E\u043A 2"
+      SpriteReference: {fileID: 21300000, guid: 95b7e8b88aa00a142b8fd5c75bc891ac, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0410\u0412\u0421-\u043F\u043E\u0440\u043E\u0448\u043E\u043A 3"
+      SpriteReference: {fileID: 21300000, guid: aedbe00e524e6fa469a5799df7ae383f, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u041F\u0440\u043E\u0447\u0438\u0439 \u043F\u043E\u0440\u043E\u0448\u043E\u043A"
+      SpriteReference: {fileID: 21300000, guid: ab6b011d5c0315f499c85099a7bcaae6, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0425\u043B\u0430\u0434\u043E\u043D"
+      SpriteReference: {fileID: 21300000, guid: 5303347b932e6db47a51e8642b82c181, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0414\u0432\u0443\u043E\u043A\u0438\u0441\u044C \u0443\u0433\u043B\u0435\u0440\u043E\u0434\u0430
+        1"
+      SpriteReference: {fileID: 21300000, guid: cc10d384a07762c4189ce946c400e06d, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0414\u0432\u0443\u043E\u043A\u0438\u0441\u044C \u0443\u0433\u043B\u0435\u0440\u043E\u0434\u0430
+        2"
+      SpriteReference: {fileID: 21300000, guid: 68f3f2d3445417d4db017246d810a713, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0414\u0432\u0443\u043E\u043A\u0438\u0441\u044C \u0443\u0433\u043B\u0435\u0440\u043E\u0434\u0430
+        3"
+      SpriteReference: {fileID: 21300000, guid: 5ac546a2d3b7a324cbd013bdbad309eb, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0412\u043E\u0434\u044F\u043D\u043E\u0439 \u043F\u0430\u0440"
+      SpriteReference: {fileID: 21300000, guid: a7c1d786699518d459571bd34a4d163e, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u0413\u0430\u0437\u044B \u043F\u0440\u043E\u0447\u0438\u0435"
+      SpriteReference: {fileID: 21300000, guid: a71cd40ea1f630f4daf8cbdec9ba040c, type: 3}
+      DefaultSize: {x: 128, y: 128}
+  - CategoryName: "\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435
+      \u043A\u0440\u0430\u0442\u043D\u043E\u0441\u0442\u0438 \u0440\u0430\u0441\u0442\u0432\u043E\u0440\u043E\u0432"
+    CategoryIcon: {fileID: 21300000, guid: ffa79f404d98bc8499ea4301840de80d, type: 3}
+    MarkTypes:
+    - TypeName: "\u041A\u043E\u043C\u043F\u0430\u043A\u0442\u043D\u0430\u044F \u0432\u043E\u0434\u044F\u043D\u0430\u044F
+        \u0441\u0442\u0440\u0443\u044F"
+      SpriteReference: {fileID: 21300000, guid: 815f02882f7774b4190a02c49f7c239d, type: 3}
+      DefaultSize: {x: 39, y: 45}
+    - TypeName: "\u0420\u0430\u0441\u043F\u044B\u043B\u0451\u043D\u043D\u0430\u044F
+        \u0432\u043E\u0434\u044F\u043D\u0430\u044F \u0441\u0442\u0440\u0443\u044F"
+      SpriteReference: {fileID: 21300000, guid: 1ad2988f9cbb5f248a7bcf45c69e04ee, type: 3}
+      DefaultSize: {x: 76, y: 45}
+    - TypeName: "\u0422\u043E\u043D\u043A\u043E\u0440\u0430\u0441\u043F\u044B\u043B\u0451\u043D\u043D\u0430\u044F
+        \u0432\u043E\u0434\u044F\u043D\u0430\u044F \u0441\u0442\u0440\u0443\u044F"
+      SpriteReference: {fileID: 21300000, guid: 77b8b42a08cda1e4a96d778fb77317df, type: 3}
+      DefaultSize: {x: 114, y: 45}
+    - TypeName: "\u041F\u0435\u043D\u0430 \u043D\u0438\u0437\u043A\u043E\u0439 \u043A\u0440\u0430\u0442\u043D\u043E\u0441\u0442\u0438"
+      SpriteReference: {fileID: 21300000, guid: ffa79f404d98bc8499ea4301840de80d, type: 3}
+      DefaultSize: {x: 39, y: 43}
+    - TypeName: "\u041F\u0435\u043D\u0430 \u0441\u0440\u0435\u0434\u043D\u0435\u0439
+        \u043A\u0440\u0430\u0442\u043D\u043E\u0441\u0442\u0438"
+      SpriteReference: {fileID: 21300000, guid: 35e587fc55e55034ebeb3976d149f6ed, type: 3}
+      DefaultSize: {x: 77, y: 43}
+    - TypeName: "\u041F\u0435\u043D\u0430 \u0432\u044B\u0441\u043E\u043A\u043E\u0439
+        \u043A\u0440\u0430\u0442\u043D\u043E\u0441\u0442\u0438"
+      SpriteReference: {fileID: 21300000, guid: 826ecd95d8e7495478829635ed7bede7, type: 3}
+      DefaultSize: {x: 116, y: 43}
+  - CategoryName: "\u041F\u0443\u043D\u043A\u0442\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F
+      \u0438 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430 \u0441\u0432\u044F\u0437\u0438"
+    CategoryIcon: {fileID: 21300000, guid: ddb9f9764c04f2c43bf94c0c8faacaca, type: 3}
+    MarkTypes:
+    - TypeName: "\u041C\u0435\u0441\u0442\u043E \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u044F
+        \u043E\u043F\u0435\u0440\u0430\u0442\u0438\u0432\u043D\u043E\u0433\u043E
+        \u0448\u0442\u0430\u0431\u0430 \u043D\u0430 \u043C\u0435\u0441\u0442\u0435
+        \u043F\u043E\u0436\u0430\u0440\u0430 (\u0427\u0421)"
+      SpriteReference: {fileID: 21300000, guid: ddb9f9764c04f2c43bf94c0c8faacaca, type: 3}
+      DefaultSize: {x: 92, y: 127}
+    - TypeName: "\u041A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u043E-\u043F\u0440\u043E\u043F\u0443\u0441\u043A\u043D\u043E\u0439
+        \u043F\u0443\u043D\u043A\u0442"
+      SpriteReference: {fileID: 21300000, guid: d358a6d5bab0405449f78bc5f0b4a0a3, type: 3}
+      DefaultSize: {x: 150, y: 152}
+    - TypeName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u0449\u0438\u043A"
+      SpriteReference: {fileID: 21300000, guid: cae2fd44d0d21b9479b6a35d556185f7, type: 3}
+      DefaultSize: {x: 150, y: 152}
+    - TypeName: "\u041F\u043E\u0441\u0442 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438
+        \u0413\u0414\u0417\u0421"
+      SpriteReference: {fileID: 21300000, guid: 0f2c4d335ddb1e74b88bbdac9fbf3d2a, type: 3}
+      DefaultSize: {x: 150, y: 152}
+    - TypeName: "\u0420\u0430\u0434\u0438\u043E\u0441\u0442\u0430\u043D\u0446\u0438\u044F
+        \u043F\u043E\u0434\u0432\u0438\u0436\u043D\u0430\u044F"
+      SpriteReference: {fileID: 21300000, guid: 819b1daff89481648a5c2045ad830b77, type: 3}
+      DefaultSize: {x: 83, y: 103}
+    - TypeName: "\u0420\u0430\u0434\u0438\u043E\u0441\u0442\u0430\u043D\u0446\u0438\u044F
+        \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u043D\u0430\u044F"
+      SpriteReference: {fileID: 21300000, guid: c25bb41d957113a408f6e212fe261aa7, type: 3}
+      DefaultSize: {x: 150, y: 147}
+    - TypeName: "\u0420\u0430\u0434\u0438\u043E\u0441\u0442\u0430\u043D\u0446\u0438\u044F
+        \u0441\u0442\u0430\u0446\u0438\u043E\u043D\u0430\u0440\u043D\u0430\u044F"
+      SpriteReference: {fileID: 21300000, guid: 46bbbb83ec4d80348b2d7bcb780c5284, type: 3}
+      DefaultSize: {x: 83, y: 103}
+    - TypeName: "\u0413\u0440\u043E\u043C\u043A\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u0435\u043B\u044C"
+      SpriteReference: {fileID: 21300000, guid: 36b016a6fc97c134daae53135005b5ec, type: 3}
+      DefaultSize: {x: 103, y: 150}
+    - TypeName: "\u0422\u0435\u043B\u0435\u0444\u043E\u043D"
+      SpriteReference: {fileID: 21300000, guid: 6aba5b92b266acd41868ef972a78c412, type: 3}
+      DefaultSize: {x: 150, y: 84}
+    - TypeName: "\u041F\u0440\u043E\u0436\u0435\u043A\u0442\u043E\u0440"
+      SpriteReference: {fileID: 21300000, guid: 9663aaff90678264491cc49785b20662, type: 3}
+      DefaultSize: {x: 150, y: 155}
+    - TypeName: "\u0420\u0430\u0434\u0438\u043E\u0441\u0435\u0442\u044C"
+      SpriteReference: {fileID: 21300000, guid: 0b9de146529a3504c959e5213b66db22, type: 3}
+      DefaultSize: {x: 452, y: 150}
+  - CategoryName: "\u041E\u0431\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0432
+      \u0437\u043E\u043D\u0435 \u0432\u0435\u0434\u0435\u043D\u0438\u044F \u0431\u043E\u0435\u0432\u044B\u0445
+      \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439"
+    CategoryIcon: {fileID: 21300000, guid: 7da22a033a0287b479e5b14ee5c6b97c, type: 3}
+    MarkTypes:
+    - TypeName: "\u041C\u0435\u0441\u0442\u043E \u0432\u043E\u0437\u043D\u0438\u043A\u043D\u043E\u0432\u0435\u043D\u0438\u044F
+        \u043F\u043E\u0436\u0430\u0440\u0430"
+      SpriteReference: {fileID: 21300000, guid: 7da22a033a0287b479e5b14ee5c6b97c, type: 3}
+      DefaultSize: {x: 78, y: 150}
+    - TypeName: "\u041E\u0442\u0434\u0435\u043B\u044C\u043D\u044B\u0439 \u043F\u043E\u0436\u0430\u0440
+        \u043D\u0430 \u043C\u0435\u0441\u0442\u043D\u043E\u0441\u0442\u0438 \u0438
+        \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0435\u0433\u043E
+        \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0435\u043D\u0438\u044F"
+      SpriteReference: {fileID: 21300000, guid: 78142c5fe66e24f4faff67c486584ef8, type: 3}
+      DefaultSize: {x: 150, y: 69}
+    - TypeName: "\u041C\u0435\u0441\u0442\u043E \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0433\u043E
+        \u0432\u0437\u0440\u044B\u0432\u0430"
+      SpriteReference: {fileID: 21300000, guid: 38c4e5eccd0cb0f469e1bc82a7514671, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u041C\u0435\u0441\u0442\u043E \u0432\u0437\u0440\u044B\u0432\u0430"
+      SpriteReference: {fileID: 21300000, guid: 09764f30c50cde443978c500d6711750, type: 3}
+      DefaultSize: {x: 128, y: 128}
+    - TypeName: "\u041C\u0435\u0441\u0442\u043E \u043D\u0430\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u044F
+        \u043F\u043E\u0441\u0442\u0440\u0430\u0434\u0430\u0432\u0448\u0438\u0445"
+      SpriteReference: {fileID: 21300000, guid: 60c4f370429b58b4aa0397f98b2ba714, type: 3}
+      DefaultSize: {x: 150, y: 63}
+    - TypeName: "\u041C\u0435\u0441\u043E \u043F\u043E\u0433\u0440\u0443\u0437\u043A\u0438
+        \u043F\u043E\u0441\u0442\u0440\u0430\u0434\u0430\u0432\u0448\u0438\u0445
+        \u043D\u0430 \u0430\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C\u043D\u044B\u0439
+        \u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442"
+      SpriteReference: {fileID: 21300000, guid: d401d7f1bf465ff419f52c193436485c, type: 3}
+      DefaultSize: {x: 233, y: 72}
+  - CategoryName: "\u0421\u043E\u043E\u0440\u0443\u0436\u0435\u043D\u0438\u044F,
+      \u043A\u043E\u043C\u043C\u0443\u043D\u0438\u043A\u0430\u0446\u0438\u0438"
+    CategoryIcon: {fileID: 21300000, guid: 95afc06f736f25d4bad11af95456bee0, type: 3}
+    MarkTypes:
+    - TypeName: "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0432\u043E\u0434\u043E\u0451\u043C"
+      SpriteReference: {fileID: 21300000, guid: 5e6c8266f4a46754e9348f50e1ac0848, type: 3}
+      DefaultSize: {x: 64, y: 64}
+    - TypeName: "\u041F\u0438\u0440\u0441"
+      SpriteReference: {fileID: 21300000, guid: 95afc06f736f25d4bad11af95456bee0, type: 3}
+      DefaultSize: {x: 64, y: 64}
+    - TypeName: "\u041A\u043E\u043B\u043E\u0434\u0435\u0446"
+      SpriteReference: {fileID: 21300000, guid: 1c3948abfec362a43988f5becadedbc0, type: 3}
+      DefaultSize: {x: 64, y: 64}
+    - TypeName: "\u0412\u043E\u0434\u043E\u043D\u0430\u043F\u043E\u0440\u043D\u0430\u044F
+        \u0431\u0430\u0448\u043D\u044F"
+      SpriteReference: {fileID: 21300000, guid: 8c10916dfaa53bd43aaf7016788ef1b7, type: 3}
+      DefaultSize: {x: 64, y: 64}
+    - TypeName: "\u0417\u0430\u043A\u0440\u044B\u0442\u044B\u0439 \u0432\u043E\u0434\u043E\u0438\u0441\u0442\u043E\u0447\u043D\u0438\u043A"
+      SpriteReference: {fileID: 21300000, guid: bfeaee02e4da3f0409830380c0a9cd6c, type: 3}
+      DefaultSize: {x: 64, y: 64}
+    - TypeName: "\u041B\u0435\u0441\u0442\u043D\u0438\u0447\u043D\u0430\u044F \u043A\u043B\u0435\u0442\u043A\u0430
+        \u043D\u0430 \u044D\u0442\u0430\u0436\u0435"
+      SpriteReference: {fileID: 21300000, guid: 234c3af150287d84c9d9136f967c11d8, type: 3}
+      DefaultSize: {x: 256, y: 136}
+    - TypeName: "\u041B\u0435\u0441\u0442\u043D\u0438\u0447\u043D\u0430\u044F \u043A\u043B\u0435\u0442\u043A\u0430,
+        \u0441\u043E\u043E\u0431\u0449\u0430\u044E\u0449\u0430\u044F\u0441\u044F
+        \u0441 \u043F\u043E\u0434\u0432\u0430\u043B\u043E\u043C"
+      SpriteReference: {fileID: 21300000, guid: 0dd5c774e32ce79438de67a3ab81b77d, type: 3}
+      DefaultSize: {x: 256, y: 131}
+    - TypeName: "\u041B\u0435\u0441\u0442\u043D\u0438\u0447\u043D\u0430\u044F \u043A\u043B\u0435\u0442\u043A\u0430,
+        \u0441\u043E\u043E\u0431\u0449\u0430\u044E\u0449\u0430\u044F\u0441\u044F
+        \u0441 \u0447\u0435\u0440\u0434\u0430\u043A\u043E\u043C"
+      SpriteReference: {fileID: 21300000, guid: 4d0bab184eeb5b2418b5bdc89ad4b33d, type: 3}
+      DefaultSize: {x: 256, y: 161}
+    - TypeName: "\u041F\u0435\u0447\u044C 1"
+      SpriteReference: {fileID: 21300000, guid: b2158d5b7540f8c4d8b5e1691498c753, type: 3}
+      DefaultSize: {x: 63, y: 34}
+    - TypeName: "\u041F\u0435\u0447\u044C 2"
+      SpriteReference: {fileID: 21300000, guid: b4851a8af623a3d4c85e7a0209af8da1, type: 3}
+      DefaultSize: {x: 64, y: 64}
+    - TypeName: "\u0412\u0435\u043D\u0442\u0438\u043B\u044F\u0446\u0438\u043E\u043D\u043D\u0430\u044F
+        \u0448\u0430\u0445\u0442\u0430"
+      SpriteReference: {fileID: 21300000, guid: a736d080fd7eade4394a98c3218bc644, type: 3}
+      DefaultSize: {x: 64, y: 35}
+    - TypeName: "\u041B\u0438\u0444\u0442"
+      SpriteReference: {fileID: 21300000, guid: 95b8fe96f61056a49ac3dc113f17f897, type: 3}
+      DefaultSize: {x: 64, y: 64}
+  Lines:
+    ButtonIcon: {fileID: 21300000, guid: e4527e53cd6712a40b23f638cd648b30, type: 3}
+    LineColors:
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 1, g: 0, b: 0, a: 1}
+    - {r: 1, g: 1, b: 0, a: 1}
+    - {r: 0, g: 0.2739539, b: 1, a: 1}
+    - {r: 0, g: 1, b: 0, a: 1}
+    - {r: 0.5412936, g: 0, b: 1, a: 1}
+    LineType:
+    - LineName: Default
+      InputType: 0
+      LineSprite: {fileID: 21300000, guid: bbcae424be160a84e818d6221243f3f6, type: 3}
+    - LineName: LineWithCircle
+      InputType: 0
+      LineSprite: {fileID: 21300000, guid: e2ee86312aa4a504abf4a83ad66ffb4c, type: 3}
+    - LineName: DoubleLine
+      InputType: 0
+      LineSprite: {fileID: 21300000, guid: a5e4ac308d0d52542bc218b40e15dfb3, type: 3}
+    - LineName: DottedLine
+      InputType: 0
+      LineSprite: {fileID: 21300000, guid: 9baedac2eb2967d47a56480f411584de, type: 3}
+    - LineName: ArrowBlack
+      InputType: 2
+      LineSprite: {fileID: 21300000, guid: f6afd4aa317a65d4e84c6d5c0bcccc04, type: 3}
+    - LineName: ArrowRed
+      InputType: 2
+      LineSprite: {fileID: 21300000, guid: ea9ae1382471ad0418bee027a0428bc2, type: 3}
+    - LineName: ArrowSliced
+      InputType: 1
+      LineSprite: {fileID: 21300000, guid: 97a19657d41a81049b8fc20876146148, type: 3}
+    - LineName: Inner Fire Crane
+      InputType: 2
+      LineSprite: {fileID: 21300000, guid: ebe38a05d455cc346b7a5e3e4aa91fd1, type: 3}
+    - LineName: Hydrant
+      InputType: 2
+      LineSprite: {fileID: 21300000, guid: 1ca9e57609aeb8a4596e3f864cba20c7, type: 3}
+  CurvedLines:
+    ButtonIcon: {fileID: 21300000, guid: ca0dd24b5821b0a478e609af379b32a4, type: 3}
+    DefaultMaterial: {fileID: 2100000, guid: 0f84db9075660e646841040929c16e25, type: 2}
+  Areas:
+    ButtonIcon: {fileID: 21300000, guid: 1b2285122eea4f04f84728de6b31aa63, type: 3}
+    AreaTypes:
+    - TypeName: Smoke
+      AreaSprite: {fileID: 21300000, guid: 1b2285122eea4f04f84728de6b31aa63, type: 3}
+    - TypeName: Flame
+      AreaSprite: {fileID: 21300000, guid: 8d144c085f6196d4ca817e897a4f0c81, type: 3}
+  outerImages:
+    ButtonIcon: {fileID: 21300000, guid: 22c7d9f588abc1c4ba60d77fa1654d34, type: 3}
