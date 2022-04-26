@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d3a13f5a62d584e82add5ed1214039, type: 3}
+  m_Name: ListOfReferences
+  m_EditorClassIdentifier: 
+  MarksCategories:
+  - CategoryName: SampleCategory
+    CategoryIcon: {fileID: 21300000, guid: 7da22a033a0287b479e5b14ee5c6b97c, type: 3}
+    MarkTypes:
+    - TypeName: 1
+      SpriteReference: {fileID: 21300000, guid: 7da22a033a0287b479e5b14ee5c6b97c, type: 3}
+      DefaultSize: {x: 78, y: 150}
+    - TypeName: 2
+      SpriteReference: {fileID: 21300000, guid: 36b016a6fc97c134daae53135005b5ec, type: 3}
+      DefaultSize: {x: 103, y: 150}
+    - TypeName: 3
+      SpriteReference: {fileID: 21300000, guid: 6aba5b92b266acd41868ef972a78c412, type: 3}
+      DefaultSize: {x: 150, y: 84}
+    - TypeName: 4
+      SpriteReference: {fileID: 21300000, guid: 9663aaff90678264491cc49785b20662, type: 3}
+      DefaultSize: {x: 150, y: 155}
+  Lines:
+    ButtonIcon: {fileID: 21300000, guid: e4527e53cd6712a40b23f638cd648b30, type: 3}
+    LineColors:
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 1, g: 0, b: 0, a: 1}
+    - {r: 1, g: 1, b: 0, a: 1}
+    - {r: 0, g: 0.2739539, b: 1, a: 1}
+    - {r: 0, g: 1, b: 0, a: 1}
+    - {r: 0.5412936, g: 0, b: 1, a: 1}
+    LineType:
+    - LineName: Default
+      InputType: 0
+      LineSprite: {fileID: 21300000, guid: bbcae424be160a84e818d6221243f3f6, type: 3}
+    - LineName: LineWithCircle
+      InputType: 0
+      LineSprite: {fileID: 21300000, guid: e2ee86312aa4a504abf4a83ad66ffb4c, type: 3}
+    - LineName: DoubleLine
+      InputType: 0
+      LineSprite: {fileID: 21300000, guid: a5e4ac308d0d52542bc218b40e15dfb3, type: 3}
+    - LineName: DottedLine
+      InputType: 0
+      LineSprite: {fileID: 21300000, guid: 9baedac2eb2967d47a56480f411584de, type: 3}
+    - LineName: ArrowBlack
+      InputType: 2
+      LineSprite: {fileID: 21300000, guid: f6afd4aa317a65d4e84c6d5c0bcccc04, type: 3}
+    - LineName: ArrowRed
+      InputType: 2
+      LineSprite: {fileID: 21300000, guid: ea9ae1382471ad0418bee027a0428bc2, type: 3}
+    - LineName: ArrowSliced
+      InputType: 1
+      LineSprite: {fileID: 21300000, guid: 97a19657d41a81049b8fc20876146148, type: 3}
+    - LineName: Inner Fire Crane
+      InputType: 2
+      LineSprite: {fileID: 21300000, guid: ebe38a05d455cc346b7a5e3e4aa91fd1, type: 3}
+    - LineName: Hydrant
+      InputType: 2
+      LineSprite: {fileID: 21300000, guid: 1ca9e57609aeb8a4596e3f864cba20c7, type: 3}
+  CurvedLines:
+    ButtonIcon: {fileID: 21300000, guid: ca0dd24b5821b0a478e609af379b32a4, type: 3}
+    DefaultMaterial: {fileID: 2100000, guid: 0f84db9075660e646841040929c16e25, type: 2}
+  Areas:
+    ButtonIcon: {fileID: 21300000, guid: 1b2285122eea4f04f84728de6b31aa63, type: 3}
+    AreaTypes:
+    - TypeName: Smoke
+      AreaSprite: {fileID: 21300000, guid: 1b2285122eea4f04f84728de6b31aa63, type: 3}
+    - TypeName: Flame
+      AreaSprite: {fileID: 21300000, guid: 8d144c085f6196d4ca817e897a4f0c81, type: 3}
+  outerImages:
+    ButtonIcon: {fileID: 21300000, guid: 22c7d9f588abc1c4ba60d77fa1654d34, type: 3}
